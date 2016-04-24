@@ -57,4 +57,6 @@ public class LocationRepository {
 				.setParameter("state", name + "%").getResultList();
 		return locs;
 	}
+
+
 }
